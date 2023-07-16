@@ -1,0 +1,65 @@
+What is Emmet? 
+
+Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, email designers type less, saving both keystrokes and time when building a campaign. Also, relying on Emmet’s autocompletion means fewer typos and missing tags, leading to more robust emails.
+
+
+Difference between a Library and Framework?
+
+
+library :-  
+
+it is a collection of code 
+when u call the called to library 
+if we have more freedom then we called library
+
+
+
+frameword :- framework is used for builing and deploying an appliction quickly
+framework is calling to code
+
+
+What is CDN? Why do we use it?
+
+# content delivery netword
+
+
+cdn brings content closer to user
+cdn deploys serverfs in all over the world 
+differcen cds user differencet technologies 
+serverfs location called pop (point of presence)
+many pops over the wold 
+each pop has each ip address
+all pops share same id address
+modern cdn convert into any content
+copies of content available in many pops
+
+
+
+Why is React known as React?
+
+
+What is crossorigin in script tag?
+
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers. Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+
+What is diference between React and ReactDOM
+
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
