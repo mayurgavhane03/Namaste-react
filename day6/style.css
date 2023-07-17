@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    z-index: 999;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+    height: 80px;
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+    box-shadow: -2px 7px 5px -6px rgba(0,0,0,.61);
+}
+
+
+.logo {
+    /* Other properties */
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    animation: neon 1s ease-in-out infinite alternate;
+  }
+@keyframes neon {
+    0% {
+      color: #a01a1a;
+      text-shadow: 0 0 5px #ff7f50;
+    }
+    100% {
+      color: #ffa410;
+      text-shadow: 0 0 5px #f9a825;
+    }
+  }
+  
+.nav-items ul  {
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 70px;
+    font-family: PT Sans,Calibri,sans-serif;
+    overflow-x: hidden;
+} 
+
+.nav-items  ul li {
+    padding: 10px;
+
+}
+.nav-items ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.serach-container{
+    margin: 100px auto 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+    
+
+}
+
+.serach-container input{
+    width: 800px;
+    height: 45px;
+    border-radius: 9px smooth black ;
+}
+.serach-container button{
+    height: 45px;
+    width: 70px;
+    color: #fff;
+    background-color:  #c26100;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.main-card {
+    height: 300px;
+    /* width: 300px; */
+    /* border: 2px solid black; */
+    background-color: #fff;
+    box-shadow: -1px 5px 10px 5px rgba(112,112,112,.2);
+    
+}
+
+
+
+
+
+
+.card {
+ 
+    width: 220px; 
+    text-align: center;
+    /* display: flex; */
+    flex: wrap;
+}
+.card img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.restro-list {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
